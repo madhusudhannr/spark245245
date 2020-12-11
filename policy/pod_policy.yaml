@@ -8,4 +8,4 @@ spec:
       - apiGroups: [""]
         kinds: ["Pod"]
   parameters:
-    registry: "dcoker.io/"
+    registry: "docker.io/"
