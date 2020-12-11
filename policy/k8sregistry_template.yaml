@@ -17,7 +17,7 @@ spec:
     - target: admission.k8s.gatekeeper.sh
       rego: |
         package k8srequiredregistry
-        violation[{"msg": msg, "details": {"Registry should be": required}}] {
+        violation[{"msg": msg, "details": {"Registry should be ": required}}] {
           input.review.object.kind == "Pod"
           some i
           image := input.review.object.spec.containers[i].image
