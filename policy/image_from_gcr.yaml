@@ -1,7 +1,7 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sRequiredRegistry
 metadata:
-  name: images-must-come-from-gcr
+  name: imagesmustcomefromgcr
 spec:
   match:
     kinds:
