@@ -9,4 +9,3 @@ spec:
         kinds: ["Pod"]
   parameters:
     registry: "gcr.io/"
-

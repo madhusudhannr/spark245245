@@ -25,4 +25,3 @@ spec:
           not startswith(image,required)
           msg := sprintf("Forbidden registry: %v", [image])
         }
-
