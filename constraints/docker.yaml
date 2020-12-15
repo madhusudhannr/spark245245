@@ -1,11 +1,11 @@
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sRequiredRegistry
 metadata:
-  name: imagesmustcomefromdocker
+  name: imagesmustcomefromtest
 spec:
   match:
     kinds:
       - apiGroups: [""]
         kinds: ["Pod"]
   parameters:
-    registry: "docker.io/"
+    registry: "test.io/"
