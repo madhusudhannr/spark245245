@@ -9,3 +9,4 @@ spec:
         kinds: ["Pod"]
   parameters:
     registry: "docker.io/"
+
